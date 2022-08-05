@@ -1,0 +1,7 @@
+{
+  "stryker-config":
+  {
+    "solution": "../../Bjss.sln",
+    "project": "Bjss.PriceBasket.csproj"
+  }
+}

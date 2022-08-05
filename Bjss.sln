@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BBC9C09-892C-4078-A36F-48301FF18927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bjss.PriceBasket", "src\Bjss.PriceBasket\Bjss.PriceBasket.csproj", "{92AD45EF-5EAA-42C4-979A-91796748F10E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8DD5A259-BF91-4FA9-8EC5-0CABEB4BB496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bjss.PriceBasket.Tests", "tests\Bjss.PriceBasket.Tests\Bjss.PriceBasket.Tests.csproj", "{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92AD45EF-5EAA-42C4-979A-91796748F10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AD45EF-5EAA-42C4-979A-91796748F10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AD45EF-5EAA-42C4-979A-91796748F10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AD45EF-5EAA-42C4-979A-91796748F10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92AD45EF-5EAA-42C4-979A-91796748F10E} = {4BBC9C09-892C-4078-A36F-48301FF18927}
+		{3BEF8960-8B35-4FE0-82DC-50FE5103C8AE} = {8DD5A259-BF91-4FA9-8EC5-0CABEB4BB496}
+	EndGlobalSection
+EndGlobal
